@@ -1,0 +1,372 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:Arial,sans-serif;
+    font-size:16px;
+    color: var(--text-color);
+    background-image: var(--page-background);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+h1{
+    color:var(--text-color);
+    font-size: 30px;
+    text-align: center;
+
+}
+p{
+    color:var(--text-color);
+    font-size:medium;
+    text-align: center;
+     font-family: "Anton", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+
+}
+.list{
+    color:var(--text-color);
+    text-align: left;
+}
+title{
+    font-size:30px;
+    color:var(--text-color);
+
+}
+
+main{
+    
+    font-family:Arial,sans-serif;
+ }
+ .main-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+ }
+ .left-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 40px;
+    color:var(--text-color);
+    font-family: "Bebas Neue", 'cursive';
+    font-weight: 320;
+    font-style: italic;
+    margin-top: 30px;
+    height: 5px;
+    padding: 20px;
+ }
+
+footer{
+    bottom: 0;
+    left: 0;
+    font-family:Arial,sans-serif;
+    color:var(--text-color);
+    box-sizing: border-box;
+    background-color: var(--navigation-color);
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-color:var(--navigation-color);
+    border-top: 1px solid #152d6d;
+    height: 40px;
+    width: 100vw;
+
+}
+a:hover{
+    color:rgb(151, 56, 56);
+    border-radius: 5px;
+
+}
+a:active{
+    color:rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: var(--navigation-color);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+.navbar a{
+   color:var(--navigation-text);
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+.navbar a:hover{
+    background-color: var(--navigation-hover);
+}
+
+.home-link{
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Impact", 'fantasy';
+}
+
+.directed-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-family: "Impact", 'fantasy';
+}
+.image-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  min-height: 100vh;        
+  padding: 1rem;            
+  box-sizing: border-box;
+  max-width: 100%;          
+  height: auto;            
+  display: block;
+  border-color: var(--text-color);
+  border-width: 2px;
+  
+}
+.Return-dash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 5px;
+}
+.info-container{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+.goal-type{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 30px;
+    height: 5px;
+    padding: 20px;
+    font-size: 30px;
+    color:var(--text-color);
+    font-family: "Bebas Neue", 'cursive';
+    font-weight: 320;
+    font-style: italic;
+}
+.Peace-Paragraph{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    padding: 20px;
+    height: 100px;
+    font-size: 20px;
+    color:var(--text-color);
+    font-family:'Oswald-Bold';
+    font-style: normal;
+    flex: 1;
+}
+.Institution-Paragraph{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5cap;
+    padding: 30px;
+    height: 100px;
+    font-size: 20px;
+    color:var(--text-color);
+    font-family:'Oswald-Bold';
+    font-style: normal;
+    flex: 1;
+}
+.dashboard-text{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    padding: 20px;
+    height: 100px;
+    font-size: 20px;
+    color:var(--text-color);
+    font-family:'Oswald-Bold';
+    font-style: normal;
+    flex: 1;
+}
+.Institution-List{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    padding: 20px;
+    height: 20px;
+    font-size: 20px;
+    color:var(--text-color);
+    font-family:'Oswald-Bold';
+    font-style: normal;
+}
+.Justice-Paragraph{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    padding: 20px;
+    height: 100px;
+    font-size: 20px;
+    color:var(--text-color);
+    font-family:'Oswald-Bold';
+    font-style: normal;
+    flex: 1;
+}
+
+:root {
+  color-scheme: dark;
+  --page-background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/UN.png);
+  --text-color: #f8f9fa;
+  --navigation-color: #152d6d;
+  --navigation-text: #ffffff;
+  --navigation-hover: #555d70;
+  --link-hover: #f1a3a3;
+  --link-active: #ff5c5c;
+  --button-color: #173eeb;
+  --button-icon-color: #1b18db;
+}
+
+body[data-theme="light"] {
+  color-scheme: light;
+  --page-background: linear-gradient(rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58)), url(images/l.jpg);
+  --text-color: #1d2433;
+  --navigation-color: #e8edf7;
+  --navigation-text: #172554;
+  --navigation-hover: #cbd5e1;
+  --link-hover: #973838;
+  --link-active: #d00000;
+  --button-color: #173eeb;
+  --button-icon-color: #1b18db;
+}
+
+a:hover{
+    color:var(--link-hover);
+    border-radius: 5px;
+}
+a:active{
+    color:var(--link-active);
+    border-radius: 5px;
+}
+/*AI assisted in certain parts of this code, but a good part of it was written by me.*/
+.theme-toggle {
+  align-self: center;
+  margin: 0 12px;
+  padding: 5px 10px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--navigation-text);
+  font: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-icon {
+  display: block;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+body[data-theme="light"] .theme-icon {
+  filter: brightness(0);
+}
+
+.theme-toggle:hover {
+  background-color: var(--navigation-hover);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+/*End of my code, the rest is from other websites for icons that are not able to be made otherwise*/
+/*From here on is css from different websites for icons that are not able to be made otherwise*/ 
+.cssbuttons-io-button {
+  background: var(--button-color);
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #635c6e;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-self: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #f7f6f8;
+  right: 0.3em;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: var(--button-icon-color);
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+/*End of Universe.io code*/
